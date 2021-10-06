@@ -12,7 +12,7 @@
 		0435338B270DC7090090E369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04353389270DC7090090E369 /* LaunchScreen.storyboard */; };
 		04353393270DD41A0090E369 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353392270DD41A0090E369 /* RealmModel.swift */; };
 		04353395270DD4440090E369 /* BirthdayCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353394270DD4440090E369 /* BirthdayCellViewModel.swift */; };
-		04353397270DD4690090E369 /* FileBirthdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */; };
+		04353397270DD4690090E369 /* BirthdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353396270DD4690090E369 /* BirthdayTableViewCell.swift */; };
 		04353399270DD4CC0090E369 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353398270DD4CC0090E369 /* BirthdayViewController.swift */; };
 		0435339B270DD4F10090E369 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435339A270DD4F10090E369 /* AddBirthdayViewController.swift */; };
 		2DE2CAC046353FBE532D3792 /* Pods_Birthday_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F2F4AB32E1B25F616FDEE /* Pods_Birthday_Notes.framework */; };
@@ -26,7 +26,7 @@
 		0435338C270DC7090090E369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04353392270DD41A0090E369 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		04353394270DD4440090E369 /* BirthdayCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCellViewModel.swift; sourceTree = "<group>"; };
-		04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBirthdayTableViewCell.swift; sourceTree = "<group>"; };
+		04353396270DD4690090E369 /* BirthdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayTableViewCell.swift; sourceTree = "<group>"; };
 		04353398270DD4CC0090E369 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		0435339A270DD4F10090E369 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		092BA812153D5D5A051E499E /* Pods-Birthday Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Notes.release.xcconfig"; path = "Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		0414271C270DD76800992475 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */,
+				04353396270DD4690090E369 /* BirthdayTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04353395270DD4440090E369 /* BirthdayCellViewModel.swift in Sources */,
-				04353397270DD4690090E369 /* FileBirthdayTableViewCell.swift in Sources */,
+				04353397270DD4690090E369 /* BirthdayTableViewCell.swift in Sources */,
 				0435339B270DD4F10090E369 /* AddBirthdayViewController.swift in Sources */,
 				04353393270DD41A0090E369 /* RealmModel.swift in Sources */,
 				0435337F270DC7080090E369 /* AppDelegate.swift in Sources */,
