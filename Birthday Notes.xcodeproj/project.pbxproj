@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0435337F270DC7080090E369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435337E270DC7080090E369 /* AppDelegate.swift */; };
+		04353388270DC7090090E369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04353387270DC7090090E369 /* Assets.xcassets */; };
+		0435338B270DC7090090E369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04353389270DC7090090E369 /* LaunchScreen.storyboard */; };
+		04353393270DD41A0090E369 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353392270DD41A0090E369 /* RealmModel.swift */; };
+		04353395270DD4440090E369 /* BirthdayCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353394270DD4440090E369 /* BirthdayCellViewModel.swift */; };
+		04353397270DD4690090E369 /* FileBirthdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */; };
+		04353399270DD4CC0090E369 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04353398270DD4CC0090E369 /* BirthdayViewController.swift */; };
+		0435339B270DD4F10090E369 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435339A270DD4F10090E369 /* AddBirthdayViewController.swift */; };
+		2DE2CAC046353FBE532D3792 /* Pods_Birthday_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F2F4AB32E1B25F616FDEE /* Pods_Birthday_Notes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0435337B270DC7080090E369 /* Birthday Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435337E270DC7080090E369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04353387270DC7090090E369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0435338A270DC7090090E369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0435338C270DC7090090E369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04353392270DD41A0090E369 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		04353394270DD4440090E369 /* BirthdayCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCellViewModel.swift; sourceTree = "<group>"; };
+		04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBirthdayTableViewCell.swift; sourceTree = "<group>"; };
+		04353398270DD4CC0090E369 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		0435339A270DD4F10090E369 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
+		092BA812153D5D5A051E499E /* Pods-Birthday Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Notes.release.xcconfig"; path = "Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes.release.xcconfig"; sourceTree = "<group>"; };
+		2B4F2F4AB32E1B25F616FDEE /* Pods_Birthday_Notes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birthday_Notes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A19ED32297D281EE910947 /* Pods-Birthday Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Notes.debug.xcconfig"; path = "Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04353378270DC7080090E369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE2CAC046353FBE532D3792 /* Pods_Birthday_Notes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0414271B270DD75500992475 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04353392270DD41A0090E369 /* RealmModel.swift */,
+				04353394270DD4440090E369 /* BirthdayCellViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0414271C270DD76800992475 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04353396270DD4690090E369 /* FileBirthdayTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0414271D270DD77F00992475 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04353398270DD4CC0090E369 /* BirthdayViewController.swift */,
+				0435339A270DD4F10090E369 /* AddBirthdayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0414271E270DD84D00992475 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0435337E270DC7080090E369 /* AppDelegate.swift */,
+				04353387270DC7090090E369 /* Assets.xcassets */,
+				04353389270DC7090090E369 /* LaunchScreen.storyboard */,
+				0435338C270DC7090090E369 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		04353372270DC7080090E369 = {
+			isa = PBXGroup;
+			children = (
+				0435337D270DC7080090E369 /* Birthday Notes */,
+				0435337C270DC7080090E369 /* Products */,
+				C507613DC91EFB548470BF77 /* Pods */,
+				27C5911F71989C3F327D0CDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0435337C270DC7080090E369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0435337B270DC7080090E369 /* Birthday Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0435337D270DC7080090E369 /* Birthday Notes */ = {
+			isa = PBXGroup;
+			children = (
+				0414271B270DD75500992475 /* Model */,
+				0414271C270DD76800992475 /* View */,
+				0414271D270DD77F00992475 /* Controllers */,
+				0414271E270DD84D00992475 /* Supporting files */,
+			);
+			path = "Birthday Notes";
+			sourceTree = "<group>";
+		};
+		27C5911F71989C3F327D0CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F2F4AB32E1B25F616FDEE /* Pods_Birthday_Notes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C507613DC91EFB548470BF77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A19ED32297D281EE910947 /* Pods-Birthday Notes.debug.xcconfig */,
+				092BA812153D5D5A051E499E /* Pods-Birthday Notes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0435337A270DC7080090E369 /* Birthday Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435338F270DC7090090E369 /* Build configuration list for PBXNativeTarget "Birthday Notes" */;
+			buildPhases = (
+				2D386B8A88F2C5E5D48CF592 /* [CP] Check Pods Manifest.lock */,
+				04353377270DC7080090E369 /* Sources */,
+				04353378270DC7080090E369 /* Frameworks */,
+				04353379270DC7080090E369 /* Resources */,
+				A03ECC54367E1B2F9FEC497A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birthday Notes";
+			productName = "Birthday Notes";
+			productReference = 0435337B270DC7080090E369 /* Birthday Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04353373270DC7080090E369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0435337A270DC7080090E369 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 04353376270DC7080090E369 /* Build configuration list for PBXProject "Birthday Notes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04353372270DC7080090E369;
+			productRefGroup = 0435337C270DC7080090E369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0435337A270DC7080090E369 /* Birthday Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04353379270DC7080090E369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435338B270DC7090090E369 /* LaunchScreen.storyboard in Resources */,
+				04353388270DC7090090E369 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D386B8A88F2C5E5D48CF592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthday Notes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03ECC54367E1B2F9FEC497A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Birthday Notes/Pods-Birthday Notes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04353377270DC7080090E369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04353395270DD4440090E369 /* BirthdayCellViewModel.swift in Sources */,
+				04353397270DD4690090E369 /* FileBirthdayTableViewCell.swift in Sources */,
+				0435339B270DD4F10090E369 /* AddBirthdayViewController.swift in Sources */,
+				04353393270DD41A0090E369 /* RealmModel.swift in Sources */,
+				0435337F270DC7080090E369 /* AppDelegate.swift in Sources */,
+				04353399270DD4CC0090E369 /* BirthdayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04353389270DC7090090E369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0435338A270DC7090090E369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0435338D270DC7090090E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0435338E270DC7090090E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04353390270DC7090090E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A19ED32297D281EE910947 /* Pods-Birthday Notes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FMN9R6DFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Notes/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sergey.Stolz.Birthday-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04353391270DC7090090E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092BA812153D5D5A051E499E /* Pods-Birthday Notes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FMN9R6DFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Notes/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sergey.Stolz.Birthday-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04353376270DC7080090E369 /* Build configuration list for PBXProject "Birthday Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435338D270DC7090090E369 /* Debug */,
+				0435338E270DC7090090E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0435338F270DC7090090E369 /* Build configuration list for PBXNativeTarget "Birthday Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04353390270DC7090090E369 /* Debug */,
+				04353391270DC7090090E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04353373270DC7080090E369 /* Project object */;
+}
